@@ -5,8 +5,14 @@ public class Date {
     private int date;
     private int year;
 
+    public Date(String month, int date, int year) {
+        this.month = month;
+        this.date = date;
+        this.year = year;
+    }
+
     @Override
     public String toString() {
-        return month +" / "+ date + " / " + year;
+        return month + "-" + date + "-" + year;
     }
 }
