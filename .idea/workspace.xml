@@ -3,6 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="819ae5d9-fe7c-4192-8c10-b1f180c93399" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/BasePlusCommissionedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/BasePlusCommissionedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/CommissionedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/CommissionedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FridayEmployee/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayEmployee/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/BasePlusCommissionedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/BasePlusCommissionedEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/CommissionedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/CommissionedEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/HourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/HourlyEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FridayEmployee/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FridayEmployee/SalariedEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Group/Supplier.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+            <state relative-caret-position="243">
+              <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -80,13 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
-                <element signature="e#734#735#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
               </folding>
             </state>
@@ -183,12 +196,12 @@
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/Date.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/IPayable.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/CommissionedEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/HourlyEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/Supplier.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/BasePlusCommissionedEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java" />
       </list>
     </option>
   </component>
@@ -261,7 +274,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554220063422" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554297180522" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -334,11 +347,18 @@
       <option name="presentableId" value="Default" />
       <updated>1553692856051</updated>
     </task>
+    <task id="LOCAL-00001" summary="Complete.">
+      <created>1554220113286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554220113286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,14 +369,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.94671404" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27175844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3285968" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -395,6 +415,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete." />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,17 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding>
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/CommissionedEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -718,8 +731,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        <state relative-caret-position="243">
+          <caret line="21" column="78" lean-forward="true" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FridayEmployee/SalariedEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#761#762#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
