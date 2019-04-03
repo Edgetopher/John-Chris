@@ -1,6 +1,6 @@
 package FridayEmployee;
 
-public class BasePlusCommissionedEmployee extends CommissionedEmployee {
+public class BasePlusCommissionedEmployee extends CommissionedEmployee implements IPayable {
     private int baseSalary;
 
     public BasePlusCommissionedEmployee(String firstName, String lastName, int socialSec, Date hiredDate, double commissionRate, int grossSales, int baseSalary) {
@@ -21,5 +21,10 @@ public class BasePlusCommissionedEmployee extends CommissionedEmployee {
         return super.toString() +
                 "Base Salary: " + baseSalary + "\n" + accent
                 ;
+    }
+
+    @Override
+    public String getCheck() {
+        return "Paid BasePlusCommissionedEmployee " + calcPay();
     }
 }

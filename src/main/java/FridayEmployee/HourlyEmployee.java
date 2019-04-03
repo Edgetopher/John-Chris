@@ -1,6 +1,6 @@
 package FridayEmployee;
 
-public class HourlyEmployee extends Employee {
+public class HourlyEmployee extends Employee implements IPayable {
     private double hourlyWage;
     private int hoursWorked;
 
@@ -34,5 +34,9 @@ public class HourlyEmployee extends Employee {
                 "Hours Worked: " + hoursWorked + "\n"+
                 "Earned " + calcPay() + "\n" +
                 accent;
+    }
+
+    public String getCheck() {
+        return "Paid HourlyEmployee: " +calcPay();
     }
 }

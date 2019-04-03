@@ -1,6 +1,6 @@
 package FridayEmployee;
 
-public class SalariedEmployee extends Employee {
+public class SalariedEmployee extends Employee implements IPayable {
     private int weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, int socialSec, Date hiredDate, int weeklySalary) {
@@ -18,5 +18,9 @@ public class SalariedEmployee extends Employee {
         return super.toString() +
                 "Weekly Salary " + weeklySalary + "\n" +
                 accent;
+    }
+
+    public String getCheck() {
+        return "Paid SalariedEmployee: " + calcPay();
     }
 }

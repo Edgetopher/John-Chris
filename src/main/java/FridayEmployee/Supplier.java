@@ -1,6 +1,6 @@
-package Group;
+package FridayEmployee;
 
-public class Supplier {
+public class Supplier extends Employee implements IPayable {
     private String name;
     private int quantity;
     private int price;
@@ -28,9 +28,18 @@ public class Supplier {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-    public Supplier(String name, int quantity, int price){
-        this.name =name;
-        this.price =price;
+    public Supplier(String name, int quantity, int price) {
+        this.name = name;
+        this.price = price;
         this.quantity = quantity;
+    }
+
+    @Override
+    public double calcPay() {
+        return getPrice() * getQuantity();
+    }
+
+    public String getCheck() {
+        return "Paid Supplier: "+ calcPay();
     }
 }

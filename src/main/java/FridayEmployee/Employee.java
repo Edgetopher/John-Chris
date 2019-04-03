@@ -6,6 +6,9 @@ public abstract class Employee {
     private int socialSec;
     private Date hiredDate;
 
+    public Employee() {
+    }
+
     public Employee(String firstName, String lastName, int socialSec, Date hiredDate) {
         this.firstName = firstName;
         this.lastName = lastName;
